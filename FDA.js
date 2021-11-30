@@ -41,6 +41,6 @@ let now = 0;
 for (i = 0; i < l; ++i) {
 	now = del[now][s.charAt(i)];
 	if (now == m) {
-		console.log(i - m);
+		console.log(i - m + 1);
 	}
 }
